@@ -1,0 +1,25 @@
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+a {
+    padding: 24px 32px;
+    width: 1152px;
+    height: 76px;
+    background-color: #EAECF0;
+    color: #101828;
+    border: #EAECF0;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+a:hover{
+    background-color: #0144;
+    transition: ease-in-out 0.3s;
+}
+
+
